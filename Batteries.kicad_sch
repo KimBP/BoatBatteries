@@ -4785,7 +4785,7 @@
 			(uuid "bdad3381-0364-4045-b367-2e99f141dd5a")
 		)
 		(instances
-			(project "Batteries3"
+			(project "Batteries"
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
 					(reference "#PWR02")
 					(unit 1)

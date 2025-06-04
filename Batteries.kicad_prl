@@ -41,7 +41,6 @@
       11,
       12,
       13,
-      14,
       15,
       16,
       17,
@@ -74,7 +73,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Batteries2.kicad_prl",
+    "filename": "Batteries.kicad_prl",
     "version": 3
   },
   "project": {
