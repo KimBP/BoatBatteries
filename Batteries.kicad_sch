@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Frk Jensen - Battery Connections - LiFePO4")
-		(date "2023-09-07")
-		(rev "2.0")
+		(date "2025-06-04")
+		(rev "v2506")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Male"
@@ -2311,6 +2311,12 @@
 		(uuid "bbdec8bf-906b-4376-b63c-3fd95aac22cc")
 	)
 	(junction
+		(at 160.02 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4dfe88d-6feb-45de-b853-e899ed156dbc")
+	)
+	(junction
 		(at 62.23 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2492,16 +2498,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 113.03) (xy 185.42 113.03)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "0f33a4c9-c864-4841-92a7-7af74619217a")
-	)
-	(wire
-		(pts
 			(xy 62.23 40.64) (xy 72.39 34.29)
 		)
 		(stroke
@@ -2602,16 +2598,6 @@
 			(type default)
 		)
 		(uuid "24577791-733b-4a09-8ee1-dfb029ffca1e")
-	)
-	(wire
-		(pts
-			(xy 144.78 123.19) (xy 142.24 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "264336df-8f61-4473-89d7-9d09c9b39033")
 	)
 	(wire
 		(pts
@@ -3010,17 +2996,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 110.49) (xy 241.3 110.49)
-		)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(uuid "6845f8ec-8637-45fb-826d-83bd96f592b7")
-	)
-	(wire
-		(pts
 			(xy 40.64 45.72) (xy 40.64 72.39)
 		)
 		(stroke
@@ -3111,17 +3086,6 @@
 			(color 255 0 0 1)
 		)
 		(uuid "7c65cea7-cbf8-48b8-a832-1bdcc8499cf7")
-	)
-	(wire
-		(pts
-			(xy 142.24 123.19) (xy 142.24 110.49)
-		)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(uuid "7caf7df4-d93c-4535-9f37-829d1d053a0b")
 	)
 	(wire
 		(pts
@@ -3312,6 +3276,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 113.03) (xy 185.42 113.03)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "9fbf57b3-ae64-4c29-8c96-d170f4f1edcc")
+	)
+	(wire
+		(pts
 			(xy 214.63 74.93) (xy 203.2 74.93)
 		)
 		(stroke
@@ -3383,16 +3357,6 @@
 			(color 255 0 0 1)
 		)
 		(uuid "ac369df3-0193-414e-bff0-f569660bc64b")
-	)
-	(wire
-		(pts
-			(xy 185.42 161.29) (xy 185.42 113.03)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "aca9c20c-e716-4b9d-9109-7c92219b548a")
 	)
 	(wire
 		(pts
@@ -3499,6 +3463,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 113.03) (xy 185.42 161.29)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "c3eb59a8-026c-4f1f-9825-cdbaf61a2a3b")
+	)
+	(wire
+		(pts
 			(xy 186.69 165.1) (xy 266.7 165.1)
 		)
 		(stroke
@@ -3561,6 +3535,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 125.73) (xy 160.02 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa58760-8e8e-4b3d-98eb-0aae5ce4d9f6")
+	)
+	(wire
+		(pts
 			(xy 241.3 74.93) (xy 234.95 74.93)
 		)
 		(stroke
@@ -3569,6 +3553,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "cae2603d-cc4f-4e52-b445-c4b82450a6b8")
+	)
+	(wire
+		(pts
+			(xy 160.02 110.49) (xy 160.02 125.73)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "cf87d954-2342-4faf-b425-04a542c4dc9a")
 	)
 	(wire
 		(pts
@@ -3818,6 +3813,17 @@
 			(type default)
 		)
 		(uuid "fae8b8a9-5c3f-4e37-9d36-730f9e88118b")
+	)
+	(wire
+		(pts
+			(xy 160.02 110.49) (xy 241.3 110.49)
+		)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(uuid "fb84a9ad-091c-41a2-887c-a4fc031382e1")
 	)
 	(wire
 		(pts
