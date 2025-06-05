@@ -11,13 +11,12 @@ connected 'consumers' are powered only when House bank switch is on.
 Diesel heater is one known consumer not using 'consumer ground'
 
 House-bank can be charged in 3 ways: 
-- From Alternator through DC/DC
+- From Alternator through start relay and DC/DC
 - From Solar
 - From Shore charger
 
 Housebank DC/DC will start charging only if voltage on input is above 13.5
 to ensure start battery gets fully charged first.
-Notice how DC/DC makes original charge relay superfluous.
 
 Solar is directly connected to one of the batteries, while shore charger is connected in the switchboard panel. DauerMinus is the same as MotorGnd
 
